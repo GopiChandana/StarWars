@@ -7,17 +7,20 @@ import "./index.css";
 function HomePage() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
-
   const [activequeryIndex, setActivequeryIndex] = useState(-1);
   const inputref = React.useRef();
   const scrollref = React.useRef();
   const history = useHistory();
+
+
   const erasequery = () => {
     inputref.current.value = "";
     setQuery("");
     setResults([]);
     setActivequeryIndex(-1);
   };
+
+
   React.useEffect(() => {
     if (query.length > 0) {
       axios
@@ -28,6 +31,8 @@ function HomePage() {
       inputref.current.value = results[activequeryIndex].name;
     }
   }, [query, activequeryIndex]);
+
+
   const handleSearchquery = () => {
     let urlsplitter =
       results &&
@@ -36,10 +41,14 @@ function HomePage() {
     let id = urlsplitter[urlsplitter.length - 2];
     history.push(`person/${id}`);
   };
+
+
   let delay = 500;
   const handlequery = debouncer((e) => {
     setQuery(e);
   }, (delay = 500));
+
+
   const handleKeyUp = (e) => {
     switch (e.keyCode) {
       case 13:
@@ -70,6 +79,8 @@ function HomePage() {
         break;
     }
   };
+
+
   function debouncer(fn, delay = 500) {
     let timer;
     return function () {
@@ -79,7 +90,7 @@ function HomePage() {
       }, delay);
     };
   }
-  console.log(results);
+
   return (
     <div onKeyUp={handleKeyUp}>
       <div className="logo">
@@ -101,7 +112,7 @@ function HomePage() {
           {query !== "" && <div onClick={erasequery}>X</div>}
         </div>
         {results.length > 0 && <div className="boundary1"></div>}
-        <div className="search_icon">
+        <div className="search_icon" onClick={handleSearchquery}>
           {query !== "" && results.length === 0 ? (
             <div className="spinner">
               <i class="fa fa-spinner"></i>
