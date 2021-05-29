@@ -15,19 +15,19 @@
 ## Screenshots
 ![Page1](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4203).png?raw=true)
 
-![Page2](https://github.com/GopiChandana/chat_application/blob/master/Screenshots/Screenshot%20(4204).png?raw=true)
+![Page2](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4204).png?raw=true)
 
-![Page3](https://github.com/GopiChandana/chat_application/blob/master/Screenshots/Screenshot%20(4205).png?raw=true)
+![Page3](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4205).png?raw=true)
 
 
 
 ## Technologies
-<p align="centre">
+
 ![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)&nbsp;
 ![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
 ![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)&nbsp;
-  </p>
+ 
 
 ## Setup
 ```
