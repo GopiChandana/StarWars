@@ -1,5 +1,6 @@
 .app {
     min-height: 100vh;
+    width:100vw;
     background: #110b0b;
     display: flex;
     flex-direction: column;

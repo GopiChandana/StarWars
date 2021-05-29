@@ -1,3 +1,48 @@
-.person h1 {
-    color: #ecd014;
+.person {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("https://wallpapercave.com/wp/ENxmmjj.jpg");
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+}
+
+.details_card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 400px;
+  margin-left: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  background-color: white;
+  text-align: center;
+  box-shadow: rgb(7, 7, 7) 3px 3px 6px 0px inset,
+    rgba(15, 15, 15, 0.5) -3px -3px 6px 1px inset;
+}
+.details_card p {
+  height: fit-content;
+  width: 90%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: black;
+  text-shadow: black;
+  display: flex;
+}
+.details_card p div {
+  flex-basis: 30%;
+  text-align: left;
+  margin-left: 2px;
+}
+@media (max-width: 862px) {
+  .person {
+    background-image: none;
+  }
+  .details_card {
+    margin: auto;
+  }
 }
