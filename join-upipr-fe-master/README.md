@@ -13,9 +13,9 @@
 
 
 ## Screenshots
-![Page1](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4203).png?raw=true)
+![Page1](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4207).png?raw=true)
 
-![Page2](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4204).png?raw=true)
+![Page2](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4208).png?raw=true)
 
 ![Page3](https://github.com/GopiChandana/StarWars/blob/main/join-upipr-fe-master/public/Screenshot%20(4205).png?raw=true)
 
