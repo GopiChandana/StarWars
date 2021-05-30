@@ -7,12 +7,14 @@ function Person() {
   const location = useLocation();
   let urlsplitter = location.pathname.split("/");
   let id = urlsplitter[urlsplitter.length - 1];
+
   React.useEffect(() => {
     axios
-      .get(`https://swapi.dev/api/people/${id}`)
+      .get(`https://swapi.dev/api/people/${id}/`)
       .then((res) => setData(res.data));
   }, []);
-  console.log(data);
+ 
+  
   return (
     <div className="person">
       <div className="details_card">

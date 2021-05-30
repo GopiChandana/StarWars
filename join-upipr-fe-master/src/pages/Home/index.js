@@ -63,7 +63,6 @@ function HomePage() {
         if (activequeryIndex === -1) {
           setActivequeryIndex(results && results.length - 1);
         }
-
         break;
       case 40:
         scrollref.current.scrollTop += 20;
