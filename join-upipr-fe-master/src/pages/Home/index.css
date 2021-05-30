@@ -47,6 +47,7 @@
   border-radius: 12.5px;
   background-color: #f8db15;
 }
+
 .results_box {
   display: flex;
   flex-direction: column;
@@ -55,7 +56,7 @@
   padding: 15px;
 
   background: #2d2f30;
-  height: 290px;
+  height: 300px;
   overflow: auto;
   border-radius: 0px 0px 25px 25px;
 }
@@ -88,6 +89,12 @@ p {
 .results_innerbox {
   display: flex;
   padding: 15px;
+  cursor: pointer;
+}
+.results_innerbox:hover {
+  background-color: rgb(253, 252, 251);
+  color: #2d2f30;
+  border-radius: 20px;
 }
 .results_inner_firstbox {
   display: flex;

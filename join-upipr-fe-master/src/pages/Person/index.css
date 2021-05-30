@@ -1,3 +1,65 @@
+.preloader {
+  margin: auto;
+  width: 120px;
+  height: 15px;
+}
+
+.loading {
+  color: #fff;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.preloader .line {
+  width: 1px;
+  height: 15px;
+  background: #fff;
+  margin: 0 6px;
+  display: inline-block;
+  animation: opacity-1 1000ms infinite ease-in-out;
+}
+
+.preloader .line-1 {
+  animation-delay: 800ms;
+}
+.preloader .line-2 {
+  animation-delay: 600ms;
+}
+.preloader .line-3 {
+  animation-delay: 400ms;
+}
+.preloader .line-4 {
+  animation-delay: 200ms;
+}
+.preloader .line-6 {
+  animation-delay: 200ms;
+}
+.preloader .line-7 {
+  animation-delay: 400ms;
+}
+.preloader .line-8 {
+  animation-delay: 600ms;
+}
+.preloader .line-9 {
+  animation-delay: 800ms;
+}
+
+@keyframes opacity-1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .person {
   width: 100vw;
   height: 100vh;
@@ -12,31 +74,37 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
-  width: 400px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
   margin-left: 20%;
+
   margin-top: auto;
   margin-bottom: auto;
-  color: black;
-  background-color: white;
+  color: #f8db15;
+  background-color: #2d2f30;
   text-align: center;
   box-shadow: rgb(7, 7, 7) 3px 3px 6px 0px inset,
     rgba(15, 15, 15, 0.5) -3px -3px 6px 1px inset;
 }
+
 .details_card p {
   height: fit-content;
-  width: 90%;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
   font-size: 20px;
-  color: black;
+  color: #f8db15;
   text-shadow: black;
   display: flex;
+  background-color: black;
+  height: fit-content;
+  margin-left: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
 }
 .details_card p div {
   flex-basis: 30%;
-  text-align: left;
-  margin-left: 2px;
+  text-align: center;
 }
 @media (max-width: 862px) {
   .person {
